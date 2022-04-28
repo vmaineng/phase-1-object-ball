@@ -1,6 +1,13 @@
+const numPointsScored = name => gameObject.find(name)
+
 function numPointsScored(name) {
-    //returns the number of points scored by that player
-}
+    let players = gameObject()[home][players]
+    //console.log()
+    for (const key in players) {
+      //console.log(players[key]);
+    }
+
+//console.log(numPointsScored('Alan Anderson'))
 
 function shoeSize(name) {
     //returns shoe size of player
@@ -144,4 +151,4 @@ function gameObject() {
     }
 } 
   
-// console.log(gameObject())
+// console.log(gameObject().home)
